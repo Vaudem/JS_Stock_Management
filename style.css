@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Avenir;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+
+.site{
+    height: 40px;
+    margin-left: 5px;
+    width: auto;
+}
+
+
+.site:hover{
+    cursor: crosshair;
+    box-shadow: 2px 2px 0px #aaa; 
+    transition: 0.6s;
+}
+
+
+
+h1{
+    color: teal;
+    font-size: 30px;
+
+}
+
+.biz{
+    color: pink;
+}
+
+
+h2{
+    color : teal;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+ul{
+
+    margin-bottom: 20px;
+
+}
+
+
+
+li{
+    color: pink;
+    font-size: 13px;
+    font-style: oblique;
+    list-style: none; 
+}
+
+
+
+label{
+    margin-left: 10px;
+}
+
+
+#add{
+    background-color: teal;
+    border-radius: 0.5px;
+    color: pink;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    
+}
+
+#add:hover{
+    background-color: pink;
+    border-radius: 0.5px;
+    color: teal;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    
+    }
+
+
+
+#stock{
+    margin-top: 20px;
+}
+
+
+th, td{
+    text-align: center;
+    width : 100px;
+
+}
+
+
+td:nth-child(odd){
+    background-color: pink;
+}
+
+td:nth-child(even){
+    background-color: teal;
+}
+
+
+
+.vinyle{
+    height: 80px;
+    margin: auto;
+    width: auto;
+}
+
+img.vinyle:hover{
+    cursor: crosshair;
+
+}
+
+
+
+button.btn{
+    background-color: transparent;
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+    
+}
+
+
+
+button.btn:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: crosshair;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+

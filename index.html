@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS training 10 : gestion du stock</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <h1><span class="biz">Biz</span>Online</h1>
+    <h2>Pour insérer une image</h2>
+    <ul>
+        <li>Se rendre sur un site:</li>
+        <li><a href="https://www.melomane.fr/fr/" target="new"><img src="./img/melomane-logo.jpg" alt="" class="site"></a><a href="http://www.fargovinylshop.com/" target="new"><img src="./img/fargo-logo.png" alt="" class="site"></a><a href="http://www.vinylokaz.com/" target="new"><img src="./img/vinylokaz-logo.jpg" alt="" class="site"></a><a href="http://www.vinyland.com/" target="new"><img src="./img/vinyland-logo.png" alt="" class="site"></a></li>
+        <li>Copier l'url de l'image</li>
+        <li>Coller l'url dans le champs "Picture"</li>
+    </ul>
+    <div id="form">
+        <label>Référence</label>
+        <input type="text" id="ref" disabled="disabled" value="auto">
+        <label>Picture</label>
+        <input type="text" id="picture" placeholder="url img" />
+        <label>Nom</label>
+        <input type="text" id="name">
+        <label>Prix</label>
+        <input type="text" id="price" placeholder="00.00 EUR">
+        <label>Description</label>
+        <input type="text" id="description" placeholder="Infos">
+        <!-- <label>Quantité</label>
+        <input type="number" id="quantite" placeholder="0"> -->
+        <button id="add">Ajouter</button>
+    </div>
+    <div id="stock">
+        <!-- <table id='table'><tr><th>Référence</th><th>Aperçu</th><th>Nom</th><th>Prix</th><th>Description</th></tr>
+            </table> -->
+        </div>
+</body>
+</html>
